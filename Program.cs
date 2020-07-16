@@ -18,6 +18,26 @@ namespace NewTestProject
               Line 3  */
             Console.Write("Hello");
             Console.Write(" Class!");
+
+            //Lesson 2.3  Casting from a string to an integer. 
+            string notANumber = "199";
+            int results = 19 * int.Parse(notANumber);
+            Console.WriteLine(" ");
+            Console.Write("Results = ");
+            Console.WriteLine(results);
+            /*  DATA TYPES
+             *  string
+                char
+                int
+                double
+                float
+                bool
+                uint
+                long
+                DateTime
+             
+             */
         }
+
     }
 }
